@@ -622,3 +622,7 @@ img {
 .user-name:focus + svg {
   fill: #4D5AE5;
 }
+
+.textarea{
+  
+}
