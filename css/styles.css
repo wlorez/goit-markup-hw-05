@@ -500,6 +500,9 @@ img {
   display: flex;
 }
 
+
+
+
 .modal-window {
   position: fixed;
   top: 0;
@@ -578,9 +581,6 @@ img {
   margin-bottom: 16px;
 }
 
-.modal-form {
-  margin-bottom: 8px;
-}
 
 .label-name {
   font-size: 12px;
@@ -714,3 +714,9 @@ img {
 .check svg{
   margin-left: 100%;
 }
+
+.modal-form{
+  margin-bottom: 8px;
+}
+
+
