@@ -785,7 +785,7 @@ img {
       background-color: var(--OCEAN);
   }
 
-  div.modal-form {
+  .form-genel .modal-form {
     margin-bottom: 8px;
 }
 .modal-form {
