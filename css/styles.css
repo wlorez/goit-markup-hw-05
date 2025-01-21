@@ -643,13 +643,14 @@ img {
 }
 
 .modal-form {
-  margin-bottom: 8px !important;
+  margin-bottom: 8px;
+}
+
+.form-genel{
   margin-bottom: 16px;
 }
 
-.bottom{
-  margin-bottom: 16px;
-}
+
 
 
 .check {
