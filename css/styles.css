@@ -643,7 +643,8 @@ img {
 }
 
 .modal-form {
-  margin-bottom: 8px;
+  margin-bottom: 8px !important;
+  margin-bottom: 16px;
 }
 
 .bottom{
