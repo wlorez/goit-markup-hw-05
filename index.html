@@ -383,16 +383,19 @@
 
             </div>
             <div class="subscribe">
-                <p class="Subscribe">Subscribe</p>
-                <form action="/" class="footer-form">
-                    <label for="" class="form-label">
-                        <input type="email" name="form-input" placeholder="E-posta" class="form-input">
-                        <button type="submit" class="footer-button">Subscribe
-                            <svg class="icon footer-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-send"></use>
-                            </svg>
-                        </button>
+                <p class="subscribe-title">Subscribe</p>
+
+                <form action="/subscribe" class="subscribe-form" id="subscribe-form">
+                    <label for="email" class="form-email">
+                        <input type="email" placeholder="E-mail" id="email" class="email-input" name="email" />
                     </label>
+
+                    <button type="submit" class="subscribe-button">
+                        Subscribe
+                        <svg class="button-send" width="24" height="24">
+                            <use href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
                 </form>
             </div>
 
