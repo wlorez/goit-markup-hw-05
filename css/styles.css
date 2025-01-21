@@ -642,11 +642,7 @@ img {
   border-color: #4d5ae5;
 }
 
-.modal-form {
-  margin-bottom: 16px;
 
-  margin-bottom: ;
-}
 
 
 
@@ -789,6 +785,9 @@ img {
       background-color: var(--OCEAN);
   }
 
-  .modal-form{
+  div.modal-form {
     margin-bottom: 8px;
-  }
+}
+.modal-form {
+    margin-bottom: 16px;
+}
