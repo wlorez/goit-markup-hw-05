@@ -500,9 +500,6 @@ img {
   display: flex;
 }
 
-
-
-
 .modal-window {
   position: fixed;
   top: 0;
@@ -561,10 +558,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-button:focus{
+.modal-button:focus {
   fill: #ffffff;
 }
-.modal-button:hover{
+.modal-button:hover {
   fill: #ffffff;
 }
 .modal-container {
@@ -580,7 +577,6 @@ img {
   color: #2e2f42;
   margin-bottom: 16px;
 }
-
 
 .label-name {
   font-size: 12px;
@@ -685,7 +681,7 @@ img {
   color: #4d5ae5;
 }
 
-.check-button{
+.check-button {
   display: block;
   min-width: 169px;
   height: 56px;
@@ -698,42 +694,38 @@ img {
   cursor: pointer;
   background-color: #4d5ae5;
   border: none;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.modal-button{
+.modal-button {
   margin-left: 330px;
 }
 
-
-.check-button{
+.check-button {
   margin-left: 90px;
 }
 
-.check svg{
+.check svg {
   margin-left: 100%;
 }
 
-.Subscribe{
+.Subscribe {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-
 }
 
-
-.footer-form{
+.footer-form {
   display: flex;
   gap: 24px;
 }
 
-.form-input{
+.form-input {
   width: 264px;
-  height: 40;
+  height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
   font-size: 12px;
@@ -743,7 +735,27 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
-  
 }
 
+.footer-button {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  border-radius: 4px;
 
+}
+
+.footer-button svg{
+  margin-left: 16px;
+}
