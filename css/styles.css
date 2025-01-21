@@ -703,5 +703,14 @@ img {
 
 
 .modal-button{
-  margin-left: 340px;
+  margin-left: 330px;
+}
+
+
+.check-button{
+  margin-left: 90px;
+}
+
+.check svg{
+  margin-left: 100%;
 }
